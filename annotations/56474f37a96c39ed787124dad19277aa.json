@@ -1,0 +1,70 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "geo",
+      "@type" : "oa:Tag",
+      "chars" : "geo"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "48&deg;28'48.6\"N 123&deg;19'42.8\"W",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>48&deg;28'48.6\"N 123&deg;19'42.8\"W</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190571741",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-12-04T20:06:59",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733342819012",
+    "dcterms:modified" : "2024-12-04T20:06:59",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2207,2164,29,43"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2221.13121,2207.32739c0,-9.63057 4.81529,-19.26115 14.44586,-28.89172c0,-7.97823 -6.46763,-14.44586 -14.44586,-14.44586c-7.97823,0 -14.44586,6.46763 -14.44586,14.44586c9.63057,9.63057 14.44586,19.26115 14.44586,28.89172z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_01c731b5-c5e1-4404-bbfa-98147a2475af\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://37c7f4c3-257e-44cd-b0d8-1777f70a82ff"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "48&deg;29'04.1\"N 123&deg;19'19.2\"W",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>48&deg;29'04.1\"N 123&deg;19'19.2\"W</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "geo",
+      "@type" : "oa:Tag",
+      "chars" : "geo"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/190571741",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2024-12-04T20:05:59",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733342759896",
+    "dcterms:modified" : "2024-12-04T20:07:52",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/manifest2.json",
+        "label" : "This is Sangeev's manifest."
+      },
+      "@type" : "oa:SpecificResource",
+      "full" : "http://37c7f4c3-257e-44cd-b0d8-1777f70a82ff"
+    }
+  } ],
+  "@id" : "https://sangeevuvic.github.io/project-iiif/annotations/56474f37a96c39ed787124dad19277aa.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
