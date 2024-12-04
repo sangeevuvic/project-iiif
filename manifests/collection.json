@@ -1,0 +1,13 @@
+{
+  "id" : "https://sangeevuvic.github.io/project-iiif/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in sangeevuvic/project-iiif project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/manifest2.json",
+    "label" : "This is Sangeev's manifest."
+  } ]
+}
