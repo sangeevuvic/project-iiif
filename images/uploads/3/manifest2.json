@@ -1,0 +1,184 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://cf9eb9d5-6a38-4d79-8071-16b7bbbb41d4",
+	"@type": "sc:Manifest",
+	"label": "This is Sangeev's manifest.",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This a collection of photos taken of PKLOS by Sangeev. Created for the IIIF Workshop.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Provided by Sangeev Thevananthan, released as Creative Commons.",
+	"sequences": [
+		{
+			"@id": "http://f97b39ba-38dd-441c-a5e2-3e6511f29e1e",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			
+			],
+			"viewingHint": "paged",
+			"canvases": [
+				{
+					"@id": "http://37c7f4c3-257e-44cd-b0d8-1777f70a82ff",
+					"@type": "sc:Canvas",
+					"label": "Park",
+					"height": 2268,
+					"width": 4032,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6474a52f-98dd-4daf-abf2-b2aaba7b9bd4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/image/iiif/2/img-5666_202412%2fIMG_5666.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/image/iiif/2/img-5666_202412%2fIMG_5666.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 9144576,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2268,
+								"width": 4032
+							},
+							"on": "http://37c7f4c3-257e-44cd-b0d8-1777f70a82ff"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://40c119d0-e3de-4da9-bc69-3a38168bffee",
+					"@type": "sc:Canvas",
+					"label": "Field",
+					"height": 2268,
+					"width": 4032,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://055dd506-15c6-4859-9538-6d5c08e9ca30",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/iiif/img-5549_202412/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/iiif/img-5549_202412",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 9144576,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2268,
+								"width": 4032
+							},
+							"on": "http://40c119d0-e3de-4da9-bc69-3a38168bffee"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"@id": "http://example.org/iiif/book1/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"http://example.org/iiif/book1/range/intro"
+			]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/intro",
+			"@type": "sc:Range",
+			"label": "Introduction",
+			"canvases": [
+				"http://37c7f4c3-257e-44cd-b0d8-1777f70a82ff"
+			]
+		}
+	]
+}
