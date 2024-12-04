@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://sangeevuvic.github.io/project-iiif/annotations/56474f37a96c39ed787124dad19277aa.json" ],
+  "@id" : "https://sangeevuvic.github.io/project-iiif/annotations/collection.json",
+  "label" : "All annotations loaded in sangeevuvic/project-iiif project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
