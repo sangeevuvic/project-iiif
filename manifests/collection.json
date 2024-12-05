@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/manifest2.json",
     "label" : "This is Sangeev's manifest."
+  }, {
+    "id" : "https://sangeevuvic.github.io/project-iiif/manifests/demo_index.json",
+    "label" : {
+      "@none" : [ "Lighthouses and sailing routes on Pacific Coast" ]
+    },
+    "type" : "Manifest"
   } ]
 }
