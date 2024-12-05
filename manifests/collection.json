@@ -15,5 +15,11 @@
       "@none" : [ "Lighthouses and sailing routes on Pacific Coast" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://sangeevuvic.github.io/project-iiif/manifests/15536288.json",
+    "label" : {
+      "none" : [ "Map of the Province of British Columbia." ]
+    },
+    "type" : "Manifest"
   } ]
 }
