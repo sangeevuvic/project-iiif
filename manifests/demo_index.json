@@ -1,0 +1,43 @@
+{
+  "@context" : [ "http://www.w3.org/ns/anno.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://sangeevuvic.github.io/project-iiif/manifests/demo_index.json",
+  "type" : "Manifest",
+  "items" : [ {
+    "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133/index.json/canvas/0",
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133/index.json/canvas/0/annotationpage/0",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133/index.json/canvas/0/annotation/0",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "width" : 11001,
+          "height" : 7304,
+          "service" : [ {
+            "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133",
+            "@type" : "ImageService2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          } ]
+        },
+        "target" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133/index.json/canvas/0"
+      } ]
+    } ],
+    "label" : {
+      "@none" : [ "Lighthouses and sailing routes on Pacific Coast" ]
+    },
+    "width" : 11001,
+    "height" : 7304,
+    "thumbnail" : [ {
+      "id" : "https://iiif.oldmapsonline.org/export/1dbf9ce7-fc33-41dc-ad70-b83de9783133/thumbnail.webp",
+      "type" : "Image"
+    } ]
+  } ],
+  "label" : {
+    "@none" : [ "Lighthouses and sailing routes on Pacific Coast" ]
+  }
+}
