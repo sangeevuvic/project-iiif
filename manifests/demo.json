@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/demo.json",
   "@type" : "sc:Manifest",
-  "label" : "Ian McTaggart Cowan at Berkley office. ",
+  "label" : "Ian McTaggart Cowan exhibit.",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "IIIF manifest for workshop demo.",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "[cc-by]",
   "sequences" : [ {
     "@id" : "http://be125bc0-1c21-4bf6-b20f-49268bb8feb0",
     "@type" : "sc:Sequence",
