@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://sangeevuvic.github.io/project-iiif/annotations/56474f37a96c39ed787124dad19277aa.json" ],
+  "otherContent" : [ "https://sangeevuvic.github.io/project-iiif/annotations/56474f37a96c39ed787124dad19277aa.json", "https://sangeevuvic.github.io/project-iiif/annotations/f1fbd51ccac2b7a388c83224ab9d4d79.json" ],
   "@id" : "https://sangeevuvic.github.io/project-iiif/annotations/collection.json",
   "label" : "All annotations loaded in sangeevuvic/project-iiif project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
