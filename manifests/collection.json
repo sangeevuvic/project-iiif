@@ -21,5 +21,9 @@
       "none" : [ "Map of the Province of British Columbia." ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://sangeevuvic.github.io/project-iiif/manifests/demo.json",
+    "label" : "Ian McTaggart Cowan at Berkley office. "
   } ]
 }
