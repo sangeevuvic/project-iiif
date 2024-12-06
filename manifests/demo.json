@@ -75,6 +75,11 @@
         },
         "on" : "http://a2e49edf-42da-4f76-8d9e-0eb68341c02f"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://sangeevuvic.github.io/project-iiif/annotations/f1fbd51ccac2b7a388c83224ab9d4d79.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "McTaggart Cowan Exhibit annotations"
+      } ],
       "related" : ""
     } ]
   } ],
