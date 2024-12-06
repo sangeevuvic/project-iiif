@@ -1,0 +1,97 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://sangeevuvic.github.io/project-iiif/annotations/f1fbd51ccac2b7a388c83224ab9d4d79.json",
+  "@type" : "sc:Manifest",
+  "label" : "Ian McTaggart Cowan exhibit.",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "IIIF manifest for workshop demo.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[cc-by]",
+  "sequences" : [ {
+    "@id" : "http://be125bc0-1c21-4bf6-b20f-49268bb8feb0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://aa9419ba-4f9f-469e-baac-a8277792182c",
+      "@type" : "sc:Canvas",
+      "label" : "Photo of McTaggart-Cowan",
+      "height" : 1678,
+      "width" : 1896,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://70d05ec0-f2d2-40de-89c4-631a17851681",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://vault.library.uvic.ca/images/ba64f20c-2f98-4996-863f-e56b1c4811a9%2Ffiles%2F4aaf3583-4274-4580-8b81-4d2b3665b841%2Ffcr:versions%2Fversion1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://vault.library.uvic.ca/images/ba64f20c-2f98-4996-863f-e56b1c4811a9%2Ffiles%2F4aaf3583-4274-4580-8b81-4d2b3665b841%2Ffcr:versions%2Fversion1",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png" ]
+            } ]
+          },
+          "height" : 1678,
+          "width" : 1896
+        },
+        "on" : "http://aa9419ba-4f9f-469e-baac-a8277792182c"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/190571741/ad6cef52b025fe01c34db3523d94108d.json",
+        "label" : "Annotations for canvas Photo of McTaggart-Cowan"
+      } ]
+    }, {
+      "@id" : "http://a2e49edf-42da-4f76-8d9e-0eb68341c02f",
+      "@type" : "sc:Canvas",
+      "label" : "Historical map of British Columbia. ",
+      "height" : 9992,
+      "width" : 8456,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bf5a6aec-b986-4e88-869a-5d836217422c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.library.yale.edu/iiif/2/15536977/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.library.yale.edu/iiif/2/15536977",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 84492352,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9992,
+          "width" : 8456
+        },
+        "on" : "http://a2e49edf-42da-4f76-8d9e-0eb68341c02f"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://dev.gdmrdigital.com/annotations/1245635613/190571741/c23245e1a6a2243a65e871a8706042ab.json",
+        "label" : "Annotations for canvas Historical map of British Columbia. "
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/190571741/f1fbd51ccac2b7a388c83224ab9d4d79/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
+}
